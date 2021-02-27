@@ -1,0 +1,27 @@
+a[href^="http"]::before{
+    content: url(pic/extref.png)
+}
+
+p > a[href$=".doc"]::after{
+    content: url(pic/logo-doc.jpg);
+}
+
+p > a[href$=".pdf"]::after{
+    content: url(pic/logo-pdf.png);
+}
+
+p > a[href$=".zip"]::after{
+    content: url(pic/logo-zip.gif);
+}
+
+a[href$=".doc"]:hover::after{
+    content: url(pic/logo-doc.jpg);    
+}
+
+a[href$=".pdf"]:hover::after{
+    content: url(pic/logo-pdf.png);
+}
+
+a[href$=".zip"]:hover::after{
+    content: url(pic/logo-zip.gif);    
+}

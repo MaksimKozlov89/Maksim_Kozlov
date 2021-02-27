@@ -14,22 +14,15 @@
 }
 
 .article{
-    float: left;
-    width: 100%; 
     margin-bottom: 2em;
+    margin-left: 15em;
     background: rgb(185, 216, 101);
+    overflow: hidden;
 }
 
-.content{
-    float: left;
-    position: absolute;
-    left: 15em;      
-}
+
 
 .basement{
-    left: 0;
-    bottom: 0;
-    position: fixed;
     clear: both;
     background:rgb(172, 45, 45);
     width: 100%;
